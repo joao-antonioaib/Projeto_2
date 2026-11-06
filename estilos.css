@@ -1,0 +1,60 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #c8102e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+
+
+
+h1, h2 {
+	margin: 20px 40px;
+    color: #000000;
+    font-family:  Arial , sans-serif;
+}
+
+.destaque {
+    background-color: #ffd600;
+    color: #7a0a1c;
+    margin: 20px 40px;
+    padding: 10px;
+			}	
+
+
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+
+ul {
+    display: flex;
+}
+
+li {
+    flex: 1;
+}
+
+li div {
+    background-color: #9b0d23;
+    border: solid #ffd600 2px;
+    margin: 5px;
+    padding: 8px;
+}
+
+a {
+    color: #ffd600;
+}
+
+/*
+1. Desafio Técnico: Tive dificuldades em pôr os 3 tópicos lado a lado. No início ficavam uns debaixo dos outros. Percebi que tinha de aplicar o display: flex ao ul e o flex: 1 aos li,com recurso ao tutorial, ao atualizar com o F5 obtive o resultado que pretendia.
+2. Correção de Sintaxe: A utilização da /, pois utilizava esta \ e a página saia desformatada
+3. Autoria (href ou src): src( de source) diz ao browser onde tem de ir buscar o ficheiro, podendo ser uma imagem ou um vídeo.Sem ele a imagem não aparece, porque o HTML só tem o caminho até ela, não a imagem em si. Se o caminho ou o nome do ficheiro estiverem mal escritos, aparece uma imagem partida e o texto do alt.
+*/
